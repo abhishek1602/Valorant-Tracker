@@ -9,7 +9,7 @@ NUM_PLAYERS = 500000
 
 regions = [
     "APAC",
-    "NA",
+    "North America",
     "EU",
     "LATAM"
 ]
