@@ -1,7 +1,7 @@
 import random
 import pandas as pd
 from faker import Faker
-from datetime import timedelta
+from datetime import timedelta, date
 
 fake = Faker()
 
@@ -104,7 +104,7 @@ for player in range(1, NUM_PLAYERS + 1):
         end_date="today"
     )
 
-    days_since = (fake.date_this_year() - last_login).days
+    days_since = (date.today() - last_login).days
 
     churn = 1 if days_since > 20 else 0
 
