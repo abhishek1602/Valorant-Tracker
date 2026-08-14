@@ -1,7 +1,7 @@
 import random
 import pandas as pd
 from faker import Faker
-from datetime import timedelta, date
+from datetime import date
 
 fake = Faker()
 
